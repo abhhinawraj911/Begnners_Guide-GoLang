@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func Add() {
 
 	var i, j, k int
 
@@ -11,5 +11,6 @@ func main() {
 
 	k = i + j
 
-	fmt.Println("The Sum Of", i, "and", j, "is", k)
+	//fmt.Println("The Sum Of", i, "and", j, "is", k)
+	return k
 }
